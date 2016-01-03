@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)hideView:(id)sender {
+    [UIView beginAnimations:nil context:nil];
+    _workingView.alpha = 0;
+    [UIView commitAnimations];
+}
+
+- (IBAction)showView:(id)sender {
+    [UIView beginAnimations:nil context:nil];
+    _workingView.alpha = 1;
+    [UIView commitAnimations];
+}
 @end
