@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HWViewController.h"
 
-@interface ViewController ()
+@interface HWViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HWViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
